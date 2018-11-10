@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/i18next@12.0.0/i18next.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <title>Trivia</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="startScreen">
+            <h4 id="messages"></h4>
+            <h1>Think Fast</h1>
+            <br>
+            <h3>Hello! i made a game and i need you to test it, ill give you a couple of questions and
+                you have to choose true or false... </h3>
+            <br>
+            <button class="btn" id="start"><i class="fas fa-play fa-3x"></i></button>
+        </div>
+
+        <div id="quiz">
+            <div id="score">
+                <span id="wrong"></span><br>
+                <span id="right"></span>
+            </div>
+            <h1 id="header"></h1>
+            <br>
+            <h2 id="question"></h2>
+            <br>
+            <button class="btn" id="yes">True</button>
+            <button class="btn" id="no">False</button>
+            <br>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
